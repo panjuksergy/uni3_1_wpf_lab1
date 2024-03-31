@@ -1,4 +1,17 @@
 ﻿using ConsoleApp1;
 
-var hello = new Hello();
-hello.PrintHello();
+// Using Hello class to print "Hello!"
+class Program
+{
+    /// <summary>
+    /// Main program method
+    /// </summary>
+    static void Main()
+    {
+        // Hello class object creation
+        var hello = new Hello();
+
+        // Print Hello to console
+        hello.PrintHello();
+    }
+}
